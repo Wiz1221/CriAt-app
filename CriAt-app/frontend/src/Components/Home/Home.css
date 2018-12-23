@@ -1,0 +1,25 @@
+body {
+  padding-top: 70px;
+  background-color: rgba(255,255,255,1);
+}
+
+.tick {
+	font-size: 15px !important;
+}
+
+.criat-chart {
+	position: relative;
+}
+
+.chart-tooltip {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	font-size: 15px;
+	box-shadow: 0 0 5px #999999;
+    border: 1px solid blue;
+    background: #FFFFFF;
+    opacity: 0.95;
+    padding: 10px;
+    pointer-events: none;
+}
